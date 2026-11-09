@@ -4,7 +4,8 @@
 # Exercise 1
 Stack = []
 TopOfStack = -1
-# Write code here to fill Stack with 10 elements, all -1
+for x in range(10):
+    Stack.append(-1)
 
 
 def IsEmpty():
