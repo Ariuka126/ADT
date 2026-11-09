@@ -14,8 +14,9 @@ def IsEmpty():
 
 
 def IsFull():
-    # Write your code here
-    pass
+    global TopOfStack
+    return TopOfStack == 9
+
 
 
 # Exercise 2
