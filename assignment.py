@@ -9,8 +9,8 @@ for x in range(10):
 
 
 def IsEmpty():
-    # Write your code here
-    pass
+    global TopOfStack
+    return TopOfStack == -1
 
 
 def IsFull():
